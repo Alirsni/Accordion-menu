@@ -1,0 +1,312 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Light.eot') format('eot'),
+        url('../fonts/Vazir-Light.woff') format('woff'),
+        url('../fonts/Vazir-Light.woff2') format('woff2');
+}
+
+* {
+    font-family: Vazir;
+}
+
+.accordion .head:hover {
+    cursor: pointer;
+}
+
+.accordion {
+    width: 590px;
+    height: 50px;
+    /* background-color: #145f3f; */
+    list-style: none;
+    transition: all .7s ease-in;
+}
+ul > li{
+    background-color: #145f3f;
+    border-radius: 2px 2px 5px 5px;
+    padding: 5px;
+    display: none;
+    margin-bottom: 10px;
+}
+/* .head{
+    width: 500px;
+    height: 60px;
+    background-color: #145f3f;
+    list-style: none;
+    border-radius: 4px;
+    transition: all .7s ease-in;
+    padding-right: 20px;
+
+} */
+
+.head {
+    color: #efefef;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #145f3f;
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-right: 20px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.min-h {
+    height: 250px;
+    background-color: #145f3f;
+}
+
+.inside {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline;
+
+}
+
+.inside-1 {
+    margin-bottom: 20px;
+    padding: 10px;
+   display: block;
+}
+
+/* .card {
+    background-color: white;
+    margin: 20px 20px;
+    border-radius: 4px;
+    transition: all .1s ease-in;
+} */
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin: 10px 10px;
+}
+.btn-1 {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    margin-top: 5px;
+}
+
+.download-btn {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    border-radius: 5px;
+    
+
+}
+
+.btn-2 {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 5px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .col-xs1 {
+        width: 8.33%;
+    }
+
+    .col-xs2 {
+        width: 16.66%;
+    }
+
+    .col-xs3 {
+        width: 25%;
+    }
+
+    .col-xs4 {
+        width: 33.33%;
+    }
+
+    .col-xs5 {
+        width: 41.66%;
+    }
+
+    .col-xs6 {
+        width: 50%;
+    }
+
+    .col-xs7 {
+        width: 58.33%;
+    }
+
+    .col-xs8 {
+        width: 66.66%;
+    }
+
+    .col-xs9 {
+        width: 75%;
+    }
+
+    .col-xs10 {
+        width: 83.33%;
+    }
+
+    .col-xs11 {
+        width: 91.66%;
+    }
+
+    .col-xs12 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:600px) {
+    .col-s1 {
+        width: 8.33%;
+    }
+
+    .col-s2 {
+        width: 16.66%;
+    }
+
+    .col-s3 {
+        width: 25%;
+    }
+
+    .col-s4 {
+        width: 33.33%;
+    }
+
+    .col-s5 {
+        width: 41.66%;
+    }
+
+    .col-s6 {
+        width: 50%;
+    }
+
+    .col-s7 {
+        width: 58.33%;
+    }
+
+    .col-s8 {
+        width: 66.66%;
+    }
+
+    .col-s9 {
+        width: 75%;
+    }
+
+    .col-s10 {
+        width: 83.33%;
+    }
+
+    .col-s11 {
+        width: 91.66%;
+    }
+
+    .col-s12 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px) {
+    .col-m1 {
+        width: 8.33%;
+    }
+
+    .col-m2 {
+        width: 16.66%;
+    }
+
+    .col-m3 {
+        width: 25%;
+    }
+
+    .col-m4 {
+        width: 33.33%;
+    }
+
+    .col-m5 {
+        width: 41.66%;
+    }
+
+    .col-m6 {
+        width: 50%;
+    }
+
+    .col-m7 {
+        width: 58.33%;
+    }
+
+    .col-m8 {
+        width: 66.66%;
+    }
+
+    .col-m9 {
+        width: 75%;
+    }
+
+    .col-m10 {
+        width: 83.33%;
+    }
+
+    .col-m11 {
+        width: 91.66%;
+    }
+
+    .col-m12 {
+        width: 100%;
+    }
+}
+    @media only screen and (min-width:1200px) {
+        .col-l1 {
+            width: 8.33%;
+        }
+    
+        .col-l2 {
+            width: 16.66%;
+        }
+    
+        .col-l3 {
+            width: 25%;
+        }
+    
+        .col-l4 {
+            width: 33.33%;
+        }
+    
+        .col-l5 {
+            width: 41.66%;
+        }
+    
+        .col-l6 {
+            width: 50%;
+        }
+    
+        .col-l7 {
+            width: 58.33%;
+        }
+    
+        .col-l8 {
+            width: 66.66%;
+        }
+    
+        .col-l9 {
+            width: 75%;
+        }
+    
+        .col-l10 {
+            width: 83.33%;
+        }
+    
+        .col-l11 {
+            width: 91.66%;
+        }
+    
+        .col-l12 {
+            width: 100%;
+        }
+}
